@@ -2,6 +2,8 @@
 
 ## 1.0.0 — 2026-10-09
 
+- Organizes the docs into a PT-BR primary README and a separate English version, with guidance tailored to this project’s options and workflow.
+
 - Updates the run instructions to point directly to the correct project entry point.
 
 - Displays available WinSAT processor, memory, graphics, and storage scores.
@@ -15,3 +17,4 @@
 
 - Usage, dependency, and required-file documentation was reviewed to match current project behavior.
 
+- Aligns the author, projects, and official communities section with the Antigravity reference repository.

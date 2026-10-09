@@ -2,6 +2,8 @@
 
 ## 1.0.0 — 2026-10-09
 
+- Reorganiza a documentação: README principal em PT-BR, versão independente em inglês e instruções específicas das opções/etapas deste projeto.
+
 - Corrige as instruções de execução para apontar diretamente para o arquivo correto do projeto.
 
 - Apresenta as pontuações WinSAT disponíveis para processador, memória, gráficos e armazenamento.
@@ -15,3 +17,4 @@
 
 - A documentação de uso, dependências e arquivos necessários foi revisada para corresponder ao comportamento atual do projeto.
 
+- Padroniza a seção do autor, projetos e comunidades oficiais conforme o repositório de referência Antigravity.

@@ -1,59 +1,77 @@
-﻿# Windows Performance Test
+# 🌐 Teste de Desempenho do Windows 🇧🇷
 
-![Latest Release](https://img.shields.io/github/v/release/Emertels/Windows-Performance-Test) ![MIT License](https://img.shields.io/github/license/Emertels/Windows-Performance-Test)
+Executa a Avaliação do Sistema do Windows e mostra as pontuações disponíveis por componente.
 
-**Version:** 1.0.0  |  **License:** MIT
+[![Documentação](https://img.shields.io/badge/DOCUMENTA%C3%87%C3%83O-PORTUGU%C3%8AS%20(BRASIL)-green?style=for-the-badge)](README.md) [![Documentation](https://img.shields.io/badge/DOCUMENTATION-ENGLISH-0070F3?style=for-the-badge)](README-EN.md)
 
-Displays available WinSAT scores for processor, memory, graphics, and storage. Run the single `Windows-Performance-Test.bat` file; WinSAT runs hidden in the same console window.
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-v1.0.0-blue?style=flat-square) ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=flat-square) ![Plataforma](https://img.shields.io/badge/Plataforma-Windows-0078D4?style=flat-square) ![Idiomas](https://img.shields.io/badge/Idiomas-10%20auto--detectados-2ea44f?style=flat-square)
 
-- [Português (Brasil)](README-PT-BR.md)
-- [English](README-EN.md)
-- [Changelog PT-BR](CHANGELOG-PT-BR.md) · [Changelog EN](CHANGELOG-EN.md)
-- [Agent instructions / Instruções para agentes](AGENTS.md)
-- [MIT License](LICENSE)
-- [v1.0.0 release and portable ZIP](https://github.com/Emertels/Windows-Performance-Test/releases/tag/v1.0.0)
+[Changelog PT-BR](CHANGELOG-PT-BR.md) · [English changelog](CHANGELOG-EN.md) · [Licença MIT](LICENSE)
 
 ---
+## Arquivos
 
-## Português (Brasil)
+Windows-Performance-Test.bat
 
-Exibe as pontuações WinSAT disponíveis para processador, memória, gráficos e armazenamento. Execute o único arquivo `Windows-Performance-Test.bat`; o WinSAT roda oculto na mesma janela do console.
+## Como usar
 
-## English
+1. Baixe ou clone o repositório completo.
+2. Execute `Windows-Performance-Test.bat`. A avaliação do WinSAT pode levar alguns minutos.
 
-Displays available WinSAT scores for processor, memory, graphics, and storage.
+## Requisitos
 
+Windows 10 ou Windows 11 com WinSAT disponível. Execute `Windows-Performance-Test.bat`; o utilitário inicia a avaliação WinSAT oculta dentro da mesma janela do console.
 
+## Resultado da avaliação
 
-## Sobre Emerson Teles
+O WinSAT formal roda dentro da mesma janela Batch, sem abrir outro console; pode levar minutos e a tela pode piscar. O resumo apresenta as pontuações disponíveis para CPU, memória, gráficos da área de trabalho, gráficos 3D/jogos, disco principal e pontuação base. São índices da avaliação do Windows, não substituem benchmarks especializados. Feche tarefas pesadas para reduzir variações. Se WinSAT ou os dados não estiverem disponíveis, o script informa isso.
 
-Emerson Teles (Emertels) desenvolve ferramentas para Windows, automação, emulação e localização de software. Veja os projetos e acompanhe os canais oficiais:
+### Idiomas disponíveis
 
-- [Site oficial](https://emertels.github.io) · [GitHub](https://github.com/Emertels) · [Discord](https://emertels.github.io/discord)
-- [YouTube](https://www.youtube.com/@emersonteles2379) · [X](https://x.com/emertels) · [Telegram](https://t.me/apksmodsandroid) · [Ko-fi](https://ko-fi.com/emertels)
+Detectados pela configuração do Windows; PT-BR é o fallback.
 
-### Outros projetos
+| Idioma | Código | Uso |
+|---|---|
+| Português (Brasil) | pt-BR | Interface PT-BR; também é o idioma alternativo. |
+| Inglês | en | Interface em inglês. |
+| Espanhol | es | Interface em espanhol. |
+| Francês | fr | Interface em francês. |
+| Alemão | de | Interface em alemão. |
+| Italiano | it | Interface em italiano. |
+| Japonês | ja | Interface em japonês. |
+| Coreano | ko | Interface em coreano. |
+| Chinês simplificado | zh-CN | Interface em chinês simplificado. |
+| Russo | ru | Interface em russo. |
 
-- [AI-Chat-Vault](https://github.com/Emertels/AI-Chat-Vault) — backup portátil e recuperação de conversas locais de ferramentas de IA.
-- [Suite-Emuladores](https://github.com/Emertels/Suite-Emuladores) — gerenciamento de download e atualização de emuladores e frontends no Windows.
-- [Microsoft-Photos-Fix](https://github.com/Emertels/Microsoft-Photos-Fix) — correção de inicialização e papel de parede do app Fotos do Windows.
-- [PSBBN-Translator](https://github.com/Emertels/PSBBN-Translator) — localização do PSBBN Definitive Project em 40 idiomas.
-- [GPU-Tweak-III-Traducao-PTBR](https://github.com/Emertels/GPU-Tweak-III-Traducao-PTBR), [Cursor-Traducao-PTBR](https://github.com/Emertels/Cursor-Traducao-PTBR), [CodexRouter-Traducao-PTBR](https://github.com/Emertels/CodexRouter-Traducao-PTBR), [Antigravity-Traducao-PTBR](https://github.com/Emertels/Antigravity-Traducao-PTBR) e [ZCode-Traducao-PTBR](https://github.com/Emertels/ZCode-Traducao-PTBR) — projetos de localização para PT-BR.
-- [Silent-Hill-Homecoming-Traducao-PTBR](https://github.com/Emertels/Silent-Hill-Homecoming-Traducao-PTBR) — tradução e revisão para PC.
+## 👨‍💻 Sobre o Autor
 
+Desenvolvido e mantido por **Emerson Teles** (conhecido na comunidade como **Emertels**).
 
-## About Emerson Teles
+Entusiasta de tecnologia, informática, jogos, manutenção de sistemas e tradução/localização de softwares para Português do Brasil (PT-BR). Desenvolvedor focado em utilitários práticos, ferramentas de produtividade, automação inteligente em PowerShell e soluções completas de localização técnica que aproximam ferramentas modernas do público brasileiro.
 
-Emerson Teles (Emertels) builds Windows tools for automation, emulation, and software localization. Explore his projects and official channels:
+### 🛠️ Projetos & Contribuições
 
-- [Official website](https://emertels.github.io) · [GitHub](https://github.com/Emertels) · [Discord](https://emertels.github.io/discord)
-- [YouTube](https://www.youtube.com/@emersonteles2379) · [X](https://x.com/emertels) · [Telegram](https://t.me/apksmodsandroid) · [Ko-fi](https://ko-fi.com/emertels)
+- [AI-Chat-Vault](https://github.com/Emertels/AI-Chat-Vault) — Backup portátil e recuperação de conversas locais de 20+ ferramentas e assistentes de IA.
+- [Antigravity — Tradução PT-BR](https://github.com/Emertels/Antigravity-Traducao-PTBR) — Localização completa do Google Antigravity Desktop para Português do Brasil.
+- [Codex Router — Tradução PT-BR](https://github.com/Emertels/CodexRouter-Traducao-PTBR) — Pacote de tradução e localização do Codex Router Control Center em PT-BR.
+- [Cursor AI — Tradução PT-BR](https://github.com/Emertels/Cursor-Traducao-PTBR) — Localização completa e profunda do Cursor AI para Português do Brasil.
+- [GPU Tweak III — Tradução PT-BR](https://github.com/Emertels/GPU-Tweak-III-Traducao-PTBR) — Tradução em português brasileiro e instalador automatizado para ASUS GPU Tweak III.
+- [Microsoft Photos Fix](https://github.com/Emertels/Microsoft-Photos-Fix) — Solução definitiva em PowerShell e C# para rota de inicialização rápida e visualização no app Fotos do Windows.
+- [PSBBN-Translator](https://github.com/Emertels/PSBBN-Translator) — Suíte corporativa de tradução e localização para o PSBBN Definitive Project (PlayStation 2) em 40 idiomas.
+- [Silent Hill: Homecoming — Tradução PT-BR](https://github.com/Emertels/Silent-Hill-Homecoming-Traducao-PTBR) — Tradução e revisão completa do jogo para PC em português brasileiro.
+- [Suite-Emuladores](https://github.com/Emertels/Suite-Emuladores) — Suíte inteligente em PowerShell para download e atualização autônoma de 56 emuladores e frontends no Windows.
+- [ZCode — Tradução PT-BR](https://github.com/Emertels/ZCode-Traducao-PTBR) — Tradução e localização completa do ZCode Desktop para Português do Brasil.
 
-### Other projects
+### 🌐 Conecte-se comigo & Comunidades Oficiais
 
-- [AI-Chat-Vault](https://github.com/Emertels/AI-Chat-Vault) — portable backup and recovery for local AI assistant conversations.
-- [Suite-Emuladores](https://github.com/Emertels/Suite-Emuladores) — Windows download and update management for emulators and frontends.
-- [Microsoft-Photos-Fix](https://github.com/Emertels/Microsoft-Photos-Fix) — startup and wallpaper fixes for the Windows Photos app.
-- [PSBBN-Translator](https://github.com/Emertels/PSBBN-Translator) — localization of the PSBBN Definitive Project into 40 languages.
-- [GPU-Tweak-III-Traducao-PTBR](https://github.com/Emertels/GPU-Tweak-III-Traducao-PTBR), [Cursor-Traducao-PTBR](https://github.com/Emertels/Cursor-Traducao-PTBR), [CodexRouter-Traducao-PTBR](https://github.com/Emertels/CodexRouter-Traducao-PTBR), [Antigravity-Traducao-PTBR](https://github.com/Emertels/Antigravity-Traducao-PTBR), and [ZCode-Traducao-PTBR](https://github.com/Emertels/ZCode-Traducao-PTBR) — Brazilian Portuguese localization projects.
-- [Silent-Hill-Homecoming-Traducao-PTBR](https://github.com/Emertels/Silent-Hill-Homecoming-Traducao-PTBR) — PC translation and review project.
+<div align="left">
+
+[![GitHub](https://img.shields.io/badge/GitHub-Emertels-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emertels)
+[![Website](https://img.shields.io/badge/Website-Emerson_Teles-0070F3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://emertels.github.io)
+[![Discord](https://img.shields.io/badge/Discord-Emertels%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://emertels.github.io/discord)
+[![X / Twitter](https://img.shields.io/badge/X_Twitter-@emertels-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/emertels)
+[![YouTube](https://img.shields.io/badge/YouTube-Emerson_Teles-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@emersonteles2379)
+[![Telegram](https://img.shields.io/badge/Telegram-Aplicativos%20Mods-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/apksmodsandroid)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Apoiar%20Projeto-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/emertels)
+
+</div>
